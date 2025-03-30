@@ -1,0 +1,29 @@
+:root {
+  /* Color scheme - light theme */
+  --primary-color: #3a36e0;
+  --secondary-color: #6c63ff;
+  --text-color: #333333;
+  --background-color: #ffffff;
+  --card-background: #f8f9fa;
+  --border-color: #e1e4e8;
+  --success-color: #28a745;
+  --error-color: #dc3545;
+  --warning-color: #ffc107;
+
+  /* Typography */
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --heading-font-weight: 600;
+  --body-font-weight: 400;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Border radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --border-radius-lg: 12px;
+}

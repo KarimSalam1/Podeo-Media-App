@@ -1,0 +1,84 @@
+.link-table-container {
+  overflow-x: auto;
+}
+
+.link-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.link-table th,
+.link-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.link-table th {
+  background-color: var(--card-background);
+  font-weight: var(--heading-font-weight);
+  color: var(--primary-color);
+}
+
+.link-table tr:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.url-cell {
+  max-width: 200px;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.image-cell {
+  text-align: center;
+}
+
+.thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-action {
+  padding: 6px 12px;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn-copy {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-delete {
+  background-color: var(--error-color);
+  color: white;
+}
+
+.no-links {
+  text-align: center;
+  padding: 20px;
+  color: #999;
+  font-style: italic;
+}
