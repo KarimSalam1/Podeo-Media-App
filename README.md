@@ -169,3 +169,25 @@ http://localhost3000.com/?mp3Url=[encoded-mp3-url]&imageUrl=[encoded-image-url]&
 - **Component-Based Architecture**: Modular components for better maintainability
 - **Responsive Design**: Flexible layouts that adapt to different screen sizes
 - **White-Labeling**: Theme configuration via CSS variables and context
+
+# Podeo Media Player Backend
+
+This is the backend API for the Podeo Media Player application.
+
+## Features
+
+- Authentication with JWT
+- API for managing media links
+- In-memory data storage (no database required)
+
+## Requirements
+
+- Node.js (>= 14.x)
+- npm
+
+## Installation
+
+1. Clone the repository
+2. Install dependencies:
+   -npm install
+   -npm run dev
