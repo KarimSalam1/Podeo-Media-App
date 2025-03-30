@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata = {
   title: "Podeo Media Player",
   description: "A media player and link sharing application",
+  icons: {
+    icon: "/podeo-favicon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
